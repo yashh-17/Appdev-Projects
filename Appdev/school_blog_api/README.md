@@ -52,28 +52,24 @@ school_blog_api/
    ```
 
 3. **Install the dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   If you don't have a `requirements.txt` file, manually install the dependencies:
+ 
+  manually install the dependencies:
 
    ```bash
    pip install fastapi motor uvicorn
    ```
 
-4. **Run MongoDB locally**
+5. **Run MongoDB locally**
 
    Make sure MongoDB is running. If you're using MongoDB Compass, ensure it is connected to the default MongoDB URL: `mongodb://localhost:27017`.
 
-5. **Start the FastAPI server**
+6. **Start the FastAPI server**
 
    ```bash
    uvicorn app.main:app --reload
    ```
 
-6. **Access the API**
+7. **Access the API**
 
    Visit `http://127.0.0.1:8000` in your web browser to see the welcome message. You can also access the interactive API documentation at `http://127.0.0.1:8000/docs`.
 
