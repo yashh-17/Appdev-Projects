@@ -97,6 +97,13 @@ pip install pytest
 pytest
 ```
 
+# School Blog API
+
+![School Blog API Homepage](images/blog_homepage_screenshot.png)
+
+The **School Blog API** is a simple web application built using FastAPI and MongoDB (motor) to create and manage a blog for a school community...
+
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
