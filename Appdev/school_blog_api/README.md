@@ -59,17 +59,17 @@ school_blog_api/
    pip install fastapi motor uvicorn
    ```
 
-5. **Run MongoDB locally**
+4. **Run MongoDB locally**
 
    Make sure MongoDB is running. If you're using MongoDB Compass, ensure it is connected to the default MongoDB URL: `mongodb://localhost:27017`.
 
-6. **Start the FastAPI server**
+5. **Start the FastAPI server**
 
    ```bash
    uvicorn app.main:app --reload
    ```
 
-7. **Access the API**
+6. **Access the API**
 
    Visit `http://127.0.0.1:8000` in your web browser to see the welcome message. You can also access the interactive API documentation at `http://127.0.0.1:8000/docs`.
 
